@@ -4,9 +4,9 @@ Software stack that monitors the temperature and humidity in different rooms usi
 
 # Prometheus Exporter
 
-## Install Prometheus
+## Install
 
-## Run Prometheus Exporter
+## Build
 
 Open the terminal in `Temperature-Humidity-Monitor\src\Exporter` and run the following commands:
 

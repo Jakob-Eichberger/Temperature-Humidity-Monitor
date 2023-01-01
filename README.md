@@ -2,9 +2,11 @@
 
 Software stack that monitors the temperature and humidity in different rooms using esp3286s and sht31 sensors and then displays the data on a grafana dashboard. 
 
-# Install
+# Prometheus Exporter
 
-## Run Exporter
+## Install Prometheus
+
+## Run Prometheus Exporter
 
 Open the terminal in `Temperature-Humidity-Monitor\src\Exporter` and run the following commands:
 
@@ -25,6 +27,9 @@ Create a buildkit...
 ...build the container and push them to hub.docker.com.
 
 ```docker buildx build --platform linux/amd64,linux/arm64 -t <REPOSITORY> --push .```
+
+
+
 
 
 
